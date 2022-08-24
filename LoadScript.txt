@@ -106,6 +106,6 @@ LOAD University,
      PA_M_MF, 
      PA_F_MF
 FROM
-[C:\Users\EADMAREI\Downloads\CWTS Leiden Ranking 2022.xlsx]
+[source\CWTS Leiden Ranking 2022.xlsx]
 (ooxml, embedded labels, table is Results);
 
