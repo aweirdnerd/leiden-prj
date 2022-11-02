@@ -1595,8 +1595,10 @@
         <SortByNumeric>0</SortByNumeric>
         <SortByAscii>1</SortByAscii>
         <SortByLoadOrder>0</SortByLoadOrder>
-        <SortByExpression>0</SortByExpression>
-        <Expression></Expression>
+        <SortByExpression>-1</SortByExpression>
+        <Expression>
+          <v>sum(P_OA)</v>
+        </Expression>
         <SortByGreyness>0</SortByGreyness>
       </SortCriteria>
       <ShowAll>false</ShowAll>

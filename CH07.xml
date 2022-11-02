@@ -1592,13 +1592,15 @@
       <Title></Title>
       <TotalString></TotalString>
       <SortCriteria>
-        <SortByState>1</SortByState>
+        <SortByState>0</SortByState>
         <SortByFrequency>0</SortByFrequency>
         <SortByNumeric>0</SortByNumeric>
-        <SortByAscii>1</SortByAscii>
+        <SortByAscii>0</SortByAscii>
         <SortByLoadOrder>0</SortByLoadOrder>
-        <SortByExpression>0</SortByExpression>
-        <Expression></Expression>
+        <SortByExpression>-1</SortByExpression>
+        <Expression>
+          <v>sum(impact_P)</v>
+        </Expression>
         <SortByGreyness>0</SortByGreyness>
       </SortCriteria>
       <ShowAll>false</ShowAll>

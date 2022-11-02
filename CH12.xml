@@ -3207,7 +3207,7 @@
         <SortByLoadOrder>0</SortByLoadOrder>
         <SortByExpression>-1</SortByExpression>
         <Expression>
-          <v>max({&lt;period={'2017-2020'}&gt;}MCS)</v>
+          <v>max({&lt;period={'2017-2020'}&gt;}PP_top10)</v>
         </Expression>
         <SortByGreyness>0</SortByGreyness>
       </SortCriteria>

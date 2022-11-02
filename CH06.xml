@@ -799,8 +799,10 @@
         <SortByNumeric>0</SortByNumeric>
         <SortByAscii>1</SortByAscii>
         <SortByLoadOrder>0</SortByLoadOrder>
-        <SortByExpression>0</SortByExpression>
-        <Expression></Expression>
+        <SortByExpression>-1</SortByExpression>
+        <Expression>
+          <v>sum(PP_OA)</v>
+        </Expression>
         <SortByGreyness>0</SortByGreyness>
       </SortCriteria>
       <ShowAll>false</ShowAll>
@@ -3147,7 +3149,19 @@
             <MinorStepInterval>2</MinorStepInterval>
             <MinorStepMode>0</MinorStepMode>
           </AxisData>
-          <AttributeExpressions></AttributeExpressions>
+          <AttributeExpressions>
+            <BkgColorExp></BkgColorExp>
+            <TextColorExp></TextColorExp>
+            <TextFmtExp></TextFmtExp>
+            <PiePopoutExp></PiePopoutExp>
+            <BarOffsetExp></BarOffsetExp>
+            <LineStyleExp>
+              <Definition>
+                <v>if(University='London School of Hygiene &amp; Tropical Medicine','&lt;W3&gt;','&lt;W1&gt;')</v>
+              </Definition>
+            </LineStyleExp>
+            <ShowValueExp></ShowValueExp>
+          </AttributeExpressions>
           <EnableCondition></EnableCondition>
         </Data>
         <SubExpressions></SubExpressions>
